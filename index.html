@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Page Capture - save a whole web page as one PNG</title>
+<meta name="description" content="A Chrome extension that captures an entire scrollable page as one PNG. It handles sticky headers, floating buttons, app-style pages, slide decks and scrolling sidebars, and has a built-in editor. Everything stays in your browser.">
+<meta property="og:title" content="Full Page Capture - save a whole web page as one PNG">
+<meta property="og:description" content="A Chrome extension that captures an entire scrollable page as one PNG. It handles sticky headers, floating buttons, app-style pages, slide decks and scrolling sidebars, and has a built-in editor. Everything stays in your browser.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="nav"><div class="pill">
+  <a class="brand" href="./"><img src="assets/icon.png" alt="" width="24" height="24"><span>Full Page Capture</span></a>
+  <a class="l hide-m" href="#features">Features</a><a class="l hide-m" href="#how">How it works</a><a class="l hide-m" href="#privacy">Privacy</a>
+  <a class="l" href="zh/" hreflang="zh-CN">中文</a>
+  <span class="soon">Install soon</span>
+</div></div>
+
+<main class="wrap">
+  <header class="hero">
+    <h1>Capture the whole page.<br><span class="grad">In one image.</span></h1>
+    <p class="lead">Full Page Capture scrolls the page for you, stitches the pieces and hands you one PNG. Sticky headers, floating buttons, app-style pages and sidebars that scroll on their own are all handled.</p>
+    <div class="cta-row"><span class="btn dark">Chrome Web Store: coming soon</span><span class="snip">or press <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>P</kbd></span></div>
+  </header>
+
+  <div class="demo" aria-hidden="true"><div class="stage">
+    <div class="browser">
+      <div class="bar"><div class="dots"><i></i><i></i><i></i></div>
+        <div class="tab"><span>⏳ 8% · ~25s left · Product launch notes</span><span>⏳ 18% · ~9s left · Product launch notes</span><span>⏳ 52% · ~6s left · Product launch notes</span><span>⏳ 86% · ~2s left · Product launch notes</span><span>Product launch notes</span></div><div class="badge"><b>8%</b><b>18%</b><b>52%</b><b>86%</b></div></div>
+      <div class="viewport"><div class="page">
+        <div class="hdr"></div>
+        <div class="blk"><i></i><i></i><i></i></div><div class="blk img"></div><div class="blk"><i></i><i></i><i></i></div>
+        <div class="blk"><i></i><i></i><i></i></div><div class="blk img"></div><div class="blk"><i></i><i></i><i></i></div>
+        <div class="blk"><i></i><i></i><i></i></div><div class="blk img"></div><div class="blk"><i></i><i></i><i></i></div>
+      </div></div>
+    </div>
+    <div class="result"><h4>Result</h4>
+      <div class="strip"><div class="fill"><div class="hdr"></div>
+        <div class="blk"><i></i><i></i></div><div class="blk img" style="height:54px"></div><div class="blk"><i></i><i></i></div>
+        <div class="blk"><i></i><i></i></div><div class="blk img" style="height:54px"></div><div class="blk"><i></i><i></i></div>
+        <div class="blk"><i></i><i></i></div><div class="blk img" style="height:54px"></div></div></div>
+      <div class="tools"><u>Pen</u><u>Arrow</u><u>Rectangle</u><u>Oval</u><u>Text</u><u>Crop</u></div>
+    </div>
+  </div><div class="prog"></div></div>
+  <p class="demo-cap">A capture in progress. The page scrolls itself while the toolbar badge and the tab title show the percentage and the time left.</p>
+
+  <section id="features">
+    <h2>Every page. One image.</h2><p class="sub">Pages that break ordinary screenshot tools are what this extension is for.</p>
+    <div class="bento">
+      <div class="card c4"><h3>Sticky things appear once.<span> Headers, chat bubbles and cookie bars are placed once, in the right spot, instead of repeating in every slice.</span></h3>
+        <div class="mini"><div class="h"></div><div class="l" style="top:40px;width:62%"></div><div class="l" style="top:56px;width:82%"></div><div class="l" style="top:72px;width:48%"></div><div class="l" style="top:96px;width:70%"></div></div></div>
+      <div class="card c2 vivid"><small>However long the page is, you get a single sharp file.</small><div class="big">1<span style="font-size:.38em;letter-spacing:-0.01em;margin-left:8px">PNG</span></div></div>
+      <div class="card c2"><h3>App-style pages, in full.<span> Content that scrolls inside a panel, slide decks, open dialogs and sidebars with their own scroll.</span></h3><div class="chips"><span class="chip">Inner scrollers</span><span class="chip">Slide decks</span><span class="chip">Dialogs</span><span class="chip">Scrolling sidebars</span></div></div>
+      <div class="card c4"><h3>Endless feeds? Finish now.<span> On a page that never ends, press Finish now. You keep everything captured so far.</span></h3>
+        <div class="ui"><div style="color:var(--muted)">Capturing... 72%</div><div class="meter"><i></i></div><div class="endbtn">Finish now</div></div></div>
+      <div class="card c3"><h3>Edit before you save.<span> Draw, add text, crop, undo and redo, and zoom, in a preview tab.</span></h3><div class="chips"><span class="chip">Pen</span><span class="chip">Arrow</span><span class="chip">Rectangle</span><span class="chip">Oval</span><span class="chip">Text</span><span class="chip">Crop</span><span class="chip">Undo</span><span class="chip">Zoom</span></div></div>
+      <div class="card c3"><h3>Private by design.<span> No account, no server, no analytics. Your pages never leave your computer.</span></h3><div class="chips"><span class="chip">0 accounts</span><span class="chip">0 servers</span><span class="chip">0 tracking</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Built for the pages that break screenshots.</h2><p class="sub">Most tools take one screenshot per screen and glue them together. That falls apart on modern pages. This one deals with each case.</p>
+    <div class="cols"><div><h4>Sticky headers</h4><p>A pinned bar is drawn once, at its natural place.</p></div><div><h4>Floating buttons</h4><p>A chat bubble shows once, not in every slice.</p></div><div><h4>Slide decks</h4><p>Stacked slides are opened up and captured in order.</p></div><div><h4>Scrolling sidebars</h4><p>The whole nav list is captured, not only what fits.</p></div></div>
+  </section>
+
+  <section id="how">
+    <h2>Three steps.</h2><p class="sub">The page scrolls by itself while the extension works.</p>
+    <div class="steps"><div class="step"><div class="n">1</div><h3>Start</h3><p>Click the toolbar icon and choose Capture Full Page, right-click the page, or press <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>P</kbd>.</p></div><div class="step"><div class="n">2</div><h3>Wait a moment</h3><p>Watch the percentage in the popup, on the badge or in the tab title.</p></div><div class="step"><div class="n">3</div><h3>Edit and save</h3><p>A preview tab opens with your image. Annotate it if you like, then save the PNG.</p></div></div>
+  </section>
+
+  <section id="privacy">
+    <h2>Your pages stay yours.</h2><p class="sub">Nothing is sent anywhere.</p>
+    <ul class="plain"><li>No account, no server, no analytics and no tracking. The extension makes no network requests of its own.</li><li>Captures are built in your browser and deleted when you close the preview tab, or at the latest when the browser next starts.</li><li>The extension only works on the tab you start it on.</li></ul>
+    <details><summary>Why each permission is needed</summary><table><tr><th>activeTab, scripting</th><td>Run the capture script in the tab you chose.</td></tr><tr><th>downloads</th><td>Save the finished PNG to your computer.</td></tr><tr><th>storage, unlimitedStorage</th><td>Pass a large image from the capture to the preview tab.</td></tr><tr><th>contextMenus</th><td>Add Capture Full Page to the right-click menu.</td></tr><tr><th>tabs</th><td>Open the preview tab, read the page title for the file name, and switch the icon off on pages that cannot be captured.</td></tr><tr><th>webNavigation</th><td>Find a scrollable frame inside pages that embed their content.</td></tr></table></details>
+    <details><summary>Good to know</summary><ul class="plain" style="margin-top:6px"><li>Browser pages (chrome://) and the Chrome Web Store cannot be captured. Chrome does not allow it.</li><li>To capture local files, turn on Allow access to file URLs for the extension.</li><li>A capture stops at 30,000 CSS pixels in height or after 60 seconds, whichever comes first, and tells you so.</li><li>Very animated pages, and sites that reveal content only while you scroll with a mouse, can differ from the live page.</li></ul></details>
+  </section>
+
+  <div class="final">
+    <img src="assets/icon.png" alt="" width="64" height="64">
+    <h2>Why not capture it all?</h2><p>On any page, press <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>P</kbd>. The rest happens by itself.</p>
+    <span class="btn white">Chrome Web Store: coming soon</span>
+  </div>
+
+  <footer><span>Full Page Capture 1.0.0 · Works in Chrome 116 and later</span><span><a href="#features">Features</a><a href="#privacy">Privacy</a></span></footer>
+</main>
+</body>
+</html>
