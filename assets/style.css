@@ -36,7 +36,7 @@ a { color: inherit; }
 .pill .brand img { width: 24px; height: 24px; border-radius: 7px; }
 .pill a.l { padding: 6px 10px; border-radius: 999px; color: var(--muted); text-decoration: none; font-size: 14.5px; }
 .pill a.l:hover { color: var(--text); background: var(--card); }
-.pill .soon { margin-left: 6px; padding: 7px 14px; border-radius: 999px; background: var(--text); color: var(--bg); font-size: 14px; font-weight: 600; white-space: nowrap; }
+.pill .soon { margin-left: 6px; padding: 7px 14px; border-radius: 999px; background: var(--text); color: var(--bg); font-size: 14px; font-weight: 600; white-space: nowrap; text-decoration: none; }
 
 /* hero */
 .hero { text-align: center; padding: 78px 0 40px; }
